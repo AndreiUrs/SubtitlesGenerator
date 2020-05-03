@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SubtitlesGenerator/v16
+/Common/bin/Debug/netcoreapp2.1
+/Common/obj
+/Domain/bin/Debug/netcoreapp2.1
+/Domain/obj
+/Domain.TextProcessing.Implementation/bin/Debug/netcoreapp2.1
+/Domain.TextProcessing.Implementation/obj/Debug/netcoreapp2.1
+/Domain.TextProcessing.Implementation/obj
+/Infrastructure.FileSystem/bin/Debug/netcoreapp2.1
+/Infrastructure.FileSystem/obj
+/TextToSrt/bin/Debug/netcoreapp2.1
+/TextToSrt/obj/Debug/netcoreapp2.1
+/TextToSrt/obj

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>TextToSrt</AssemblyName>
+    <RootNamespace>SubtitlesConverter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Domain.TextProcessing.Implementation\Domain.TextProcessing.Implementation.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure.FileSystem\Infrastructure.FileSystem.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="data\script.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
